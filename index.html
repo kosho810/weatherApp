@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/all.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <section class="forcast ">
+       
+      <div class="container py-3">
+        <h1 class="text-white text-center fs-1">Weather Forcast</h1>
+        <form id="form">
+          <input
+            type="text"
+            id="search"
+            class="form form-control bg-body-secondary rounded-4 py-2 w-75 mx-auto my-5"
+            placeholder="Find your location..."
+          />
+        </form>
+
+        <div class="data">
+          <div class="row">
+            <div class="col-md-6">
+                <div id="todayCard" class="card  rounded-2 text-white">
+                    <div class=" d-flex  justify-content-between p-3   text-white ">
+                        <span class="today-name ">Wednesday</span>
+                        <span id="today-date ">
+                            <span class="todayNumber" >30</span>
+                            <span class="todayMonth">january</span>
+                        </span>
+
+                    </div>
+                    <div class="card-content" >
+                        <p  class=" todayLocation fs-2 ps-3 fw-bold ">cairo</p>
+                        <div class="today-information d-flex justify-content-center p-3">
+                            <span class=" temp">
+                                <span class="todayTemp fw-bold">20</span>
+                                <span><sup>o</sup>c</span>
+                            </span>
+                            <img src="weather/64x64/night/311.png" alt="" class="todayImage">
+                        </div>
+                        <p class="today-condition ps-3 fs-6 text-info text-center" >sunny</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center me-2 ">
+                        <div class="d-flex me-4 ">
+                            <img class=" me-3" src="weather/icon-umberella.png" alt="">
+                            <p class="humidity">20</p>
+                        </div>
+                        <div class="d-flex me-4 ">
+                            <img class=" me-3" src="weather/icon-wind.png" alt="">
+                            <p class="wind">20 </p><span>Km/h</span>
+                        </div>  <div class="d-flex me-4 ">
+                            <img class=" me-3" src="weather/icon-compass.png" alt="">
+                            <p class="wind-direction">20</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div  class="card forcastCard rounded-2 text-white">
+                    <div class="  text-center  p-2   text-white ">
+                        <span class="nextDay-name ">Wednesday</span>
+                    </div>
+                    <div class="card-content text-center" >
+                        <img src="weather/64x64/day/119.png" alt="" class="nextDayImg mt-3 mb-3">
+                        <div class="  p-3">
+                         
+                            <span class=" forcastTemp ">
+                                <span  class="nextDayNameTemp fw-bold ">20</span>
+                                <span><sup>o</sup>c</span>
+                            </span>
+                            
+                        </div>
+                        <p class="nextDayCondition ps-3 fs-6 text-info" >sunny</p>
+                    </div>
+                    
+                    
+                </div>
+            
+            </div>
+            <div class="col-md-3">
+                <div  class="card forcastCard rounded-2 text-white">
+                    <div class="  text-center  p-2   text-white ">
+                        <span class="nextDay-name">Wednesday</span>
+                      
+
+                    </div>
+                    <div class="card-content text-center" >
+                        <img src="weather/64x64/day/119.png" alt="" class=" nextDayImg mt-3 mb-3">
+                        <div class=" p-3">
+                         
+                            <span class="forcastTemp">
+                                <span  class="nextDayNameTemp fw-bold ">20</span>
+                                <span><sup>o</sup>c</span>
+                            </span>
+                            
+                        </div>
+                        <p class="nextDayCondition ps-3 fs-6 text-info" >sunny</p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    
+    </section>
+    <div class="footer text-center text-white py-4 ">
+        <p>Copyright 2024 @route. Designed by Karim. All rights reserved</p>
+      </div>
+
+    <script  src="js/all.min.js"></script>
+    <script  src="js/bootstrap.bundle.min.js"></script>
+    <script  src="js/main.js"></script>
+  </body>
+</html>

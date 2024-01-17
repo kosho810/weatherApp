@@ -1,0 +1,36 @@
+section{
+    background-image: url('../img/sky-clouds-cinematic-clouds-wallpaper-5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    position: relative;
+}
+.card{
+    margin-bottom: 20px;
+    background: transparent;
+    border: 2px solid rgba(255,255 , 255, 0.5);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 30px rgba(0,0 , 0, 0.5);
+}
+.card-content .temp{
+    font-size: 80px;
+}
+.today-information img{
+width: 120px;
+}
+.card-footer img{
+    height: 20px;
+    width: 20px;
+}
+.forCastCard img{
+    height: 90px;
+    width: 90px;
+}
+.forcastTemp{
+    font-size: 50px;
+}
+.footer{
+    background: rgb(2,0,36);
+background: linear-gradient(169deg, rgba(2,0,36,1) 0%, rgba(207,205,40,1) 100%, rgba(0,212,255,1) 100%);
+}
